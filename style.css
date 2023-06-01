@@ -1,0 +1,38 @@
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form-container {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0px 0px 10px 0px;
+}
+
+input {
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+    display: flex;
+}
+
+#btn{
+    width: 220px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    text-align: center;
+
+}
+.error{
+    color: red;
+    text-align: left;
+}
